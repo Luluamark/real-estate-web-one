@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Le Confidential Hotel",
+    "price": "47,043",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./r1.png"
+  },
+  {
+    "name": "LeTsuba Hotel",
+    "price": "66,353",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Dreamland Hotel",
+    "price": "35,853",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Dove Nest Hotel",
+    "price": "47,043",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Desert Breeze Hotel",
+    "price": "66,353",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "./r2.png"
+  },
+  {
+    "name": "White Castle Hotel",
+    "price": "35,853",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "./r3.png"
+  }
+]

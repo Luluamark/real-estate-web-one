@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Italianno&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary: #009043;
+  --secondary: #5cc98f;
+  --black: #131110;
+  --gray: #ededed;
+  --blue-gradient: #00acc7;
+  --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+  --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.paddings {
+  padding: 1.5rem;
+}
+.inner-width {
+  width: 100%;
+}
+.flex-center {
+  display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-col-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-col-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flex-col-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.primary-text {
+  color: #009043;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.secondary-text {
+  color: rgb(41, 41, 41);
+
+  font-size: 1.2rem;
+}
+.orange-text {
+  color: orangered;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.button {
+  font-weight: 500;
+  padding: 0.6rem 1.6rem;
+  color: #fff;
+  background: var(--primary);
+
+  border: none;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+@media (min-width: 1536px) {
+  .inner-width {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .paddings {
+    padding: 4rem;
+  }
+}
+@media (min-width: 1280px), (min-width: 768px) {
+  .paddings {
+    padding: 2rem;
+  }
+}
+@media (max-width: 640px) {
+  .primary-text {
+    font-size: 1.5rem;
+  }
+  .blue-text {
+    font-size: 1.2rem;
+  }
+}

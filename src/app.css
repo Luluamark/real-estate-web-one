@@ -1,0 +1,17 @@
+.app {
+  position: relative;
+  overflow-x: auto;
+}
+.app > :nth-child(1) {
+  background-color: var(--black);
+  position: relative;
+}
+
+.gray-gradient {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(220, 220, 220, 0.522);
+  filter: blur(100px);
+  border-radius: 100px;
+}
